@@ -1,0 +1,69 @@
+# Node modules (dependencies)
+node_modules/
+
+# Build output (Webpack output files)
+dist/
+build/
+
+# TypeScript temporary build files
+*.tsbuildinfo
+
+# Editor and OS-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Environment variables (DO NOT COMMIT SECRETS)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Webpack cache
+.cache/
+.terser-cache/
+webpack-assets.json
+
+# Babel cache
+.babelrc.cache.json
+
+# ESLint cache
+.eslintcache
+
+# Jest cache & test coverage
+coverage/
+jest.config.js
+jest.setup.js
+**/__tests__/
+**/__mocks__/
+**/__snapshots__/
+
+# TypeScript declaration files (if generated separately)
+*.d.ts
+
+# Storybook files
+.storybook/
+out/
+
+# Prettier and formatting logs
+.prettierignore
+.prettier.log
+
+# Local package lock files (if using npm or yarn)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Git hooks (if configured)
+.husky/
+
+# Next.js-related (if you later add Next.js)
+.next/
